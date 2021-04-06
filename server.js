@@ -85,3 +85,17 @@ app.post('/api/characters', (req, res) => {
 // Starts the server to begin listening
 
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
+
+
+/*  STEPS:
+1) Create a new repo in GitHub (be sure to include the Node .gitignore)
+2) Clone the new repo locally
+3) Add the Node application code (you can leave out the node-modules folder)
+4) git add and commit the changes.
+5) NOTE: You might want to go ahead and change the PORT assignment to:  
+   const PORT = process.env.PORT || 3000;
+6) run:  heroku login (if you haven't already)
+7) run:  heroku create "unique-file-name" (or leave off name to have one generated)
+8) do a:  git push heroku main
+9) try browsing to your *unique-file-name*.herokuapp.com
+*/
